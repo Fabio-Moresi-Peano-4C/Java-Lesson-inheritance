@@ -37,6 +37,15 @@ public class TestContoBancario {
         System.out.println("bilancio conto3: "+conto3.getBilancio());
         System.out.println("bilancio conto4: "+conto4.getBilancio());
         System.out.println("bilancio conto5: "+conto5.getBilancio());
+        System.out.println("fido conto3: "+conto3.getFido());
+        System.out.println("fido conto4: "+conto4.getFido());
+        System.out.println("fido conto5: "+conto5.getFido());
+        conto3.setFido(Integer.parseInt(JOptionPane.showInputDialog("Inserire nuovo valore fido: ")));
+        conto4.setFido(Integer.parseInt(JOptionPane.showInputDialog("Inserire nuovo valore fido: ")));
+        conto5.setFido(Integer.parseInt(JOptionPane.showInputDialog("Inserire nuovo valore fido: ")));
+        System.out.println("fido conto3: "+conto3.getFido());
+        System.out.println("fido conto4: "+conto4.getFido());
+        System.out.println("fido conto5: "+conto5.getFido());
     }
     
 }
