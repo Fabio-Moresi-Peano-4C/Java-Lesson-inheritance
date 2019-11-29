@@ -1,11 +1,13 @@
 Argomenti di teoria applicati in "TestContoBancario":
 
 -Ereditarietà
+
 -Polimorfismo
+
 -This
 
 
-EREDITARIETA':
+EREDITARIETA:
 
 Il concetto di ereditarietà serve per unire diverse classi, creando un sistema di "Superclassi" e "Sottoclassi".
 La Sottoclasse eredita dalla Superclasse gli attributi e i metodi, permettendo così di poterli utilizzare in entrembe le classi.
@@ -17,7 +19,7 @@ POLIMORFISMO:
 
 E' il riutilizzamento di un dato metodo ereditato da una superclasse cambiando ciò che fa quel metodo, viene contrassegnato con "@Override".
 
-il polimorfismo serve per riscrivere dei metodi che magari devono svolgere una funzione simile ma algoritmicamente diversa o più specifica.
+Il polimorfismo serve per riscrivere dei metodi che magari devono svolgere una funzione simile ma algoritmicamente diversa o più specifica.
 
  In questo progetto è stato ridefinito, nella classe derivata ContoEsteso, il metodo "preleva", già presente nella classe ContoBancario.
  
