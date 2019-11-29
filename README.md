@@ -36,10 +36,12 @@ Si scrive il comando seguito da un punto e dall'attributo che si vuole usare.
 
 Nel progetto è stato utilizzato il this per l'attributo fido nella sottoclasse ContoEsteso. Nella superclasse ContoBancario il this è stato utilizzato per gli attributi nomeConto e bilancio.
 
-String **nomeAttributo**;
+String ++nomeAttributo++;
 
 public NomeCostruttore (String °°nomeAttributo°°){
-    this.**nomeAttributo** = °°nomeAttributo°°;
+
+    this.++nomeAttributo++ = °°nomeAttributo°°;
+    
 }
 
 
